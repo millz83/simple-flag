@@ -1,0 +1,48 @@
+body {
+    background-color: burlywood;
+}
+
+.contain-flag {
+    position: relative;
+    margin-left: 40%;
+    margin-top: 70px;
+}
+
+.pole {
+ background-color:brown;
+border-radius: 10px;
+width:10px;
+height:300px;
+border: 1px solid #000;
+
+}
+
+
+
+
+.pole:before {
+    position:absolute;
+    top:-14px;
+    left:-5px;
+    display:block;
+    background-color:brown;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    content: '';
+}
+
+
+.flag {
+    position: absolute;
+    top:8px;
+    z-index: 10;
+    background-color: teal;
+    border:1px solid rgb(34, 238, 211);
+    width:150px;
+    height:90px;
+}
+
+
+
+
